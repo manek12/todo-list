@@ -1,0 +1,100 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.App{
+  width: 100%;
+  height: 100vh;
+  background-color: aliceblue;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Main{
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  background-color: aquamarine;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+h1{
+  margin-top: 30px;
+  background-color: aliceblue;
+}
+
+.addTask{
+  margin: 20px 0px;
+}
+
+input{
+  font-size: 20px;
+  width: 70%;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  padding: 5px 10px;
+}
+
+.addButton{
+  margin: 5px 10px;
+  font-size: 20px;
+  padding: 2px 8px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: aliceblue;
+  background-color: cornflowerblue;
+}
+
+.addButton:hover{
+  background-color: green;
+}
+
+.task{
+  margin-left: 20px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.items{
+  max-height: 65%;
+  overflow-y: scroll;
+}
+
+.removeButton{
+  font-size: 20px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 0px;
+  outline: none;
+  border: none;
+  color: aliceblue;
+  background-color: darkolivegreen;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.removeButton:hover{
+  background-color: red;
+}
+
+h6{
+  text-align: start;
+  margin-left: 3px;
+  padding-left: 8px;
+  border-radius: 10px;
+  max-height: max-content;
+  background-color: aliceblue;
+  font-size: 20px;
+  width: 80%;
+  outline: none;
+  border: none;
+}
